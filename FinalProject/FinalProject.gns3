@@ -5199,12 +5199,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "Viagra",
-                    "x": 7,
+                    "text": "S1-R1",
+                    "x": 9,
                     "y": -25
                 },
                 "locked": false,
-                "name": "Viagra",
+                "name": "S1-R1",
                 "node_id": "b13ceef3-9d22-475a-8719-f3af776f875b",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
