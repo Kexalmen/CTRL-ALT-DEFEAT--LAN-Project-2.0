@@ -1,0 +1,22 @@
+Nov 09 20:46:17.224 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 09 20:46:17.224 HYPERVISOR: Started on IP = localhost, TCP port = 63743.
+Nov 09 20:46:17.725 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 09 20:46:17.726 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\TestProjecty\project-files\dynamips 
+Nov 09 20:46:17.726 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\TestProjecty\project-files\dynamips
+Nov 09 20:46:17.726 HYPERVISOR: exec_cmd: ethsw create SA-SW19 
+Nov 09 20:46:23.872 HYPERVISOR: exec_cmd: nio create_udp udp-e0580bfc-b2ba-4ce3-81e9-60d1a6b28876 20000 127.0.0.1 20001 
+Nov 09 20:46:23.873 HYPERVISOR: exec_cmd: ethsw add_nio SA-SW19 udp-e0580bfc-b2ba-4ce3-81e9-60d1a6b28876 
+Nov 09 20:46:23.890 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW19 udp-e0580bfc-b2ba-4ce3-81e9-60d1a6b28876 1 
+Nov 09 20:46:24.203 HYPERVISOR: exec_cmd: nio create_udp udp-a73754dd-5c1d-47e5-af27-731adb3e2ca0 20004 127.0.0.1 20005 
+Nov 09 20:46:24.204 HYPERVISOR: exec_cmd: ethsw add_nio SA-SW19 udp-a73754dd-5c1d-47e5-af27-731adb3e2ca0 
+Nov 09 20:46:24.209 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW19 udp-a73754dd-5c1d-47e5-af27-731adb3e2ca0 1 
+Nov 09 20:46:24.263 HYPERVISOR: exec_cmd: nio create_udp udp-7214f6c1-c7de-4ea6-80c9-76f7586193f9 20006 127.0.0.1 20007 
+Nov 09 20:46:24.264 HYPERVISOR: exec_cmd: ethsw add_nio SA-SW19 udp-7214f6c1-c7de-4ea6-80c9-76f7586193f9 
+Nov 09 20:46:24.273 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW19 udp-7214f6c1-c7de-4ea6-80c9-76f7586193f9 1 
+Nov 09 20:46:24.329 HYPERVISOR: exec_cmd: nio create_udp udp-f712d4cb-c7d0-47db-9ca1-6af57bc738bb 20008 127.0.0.1 20009 
+Nov 09 20:46:24.330 HYPERVISOR: exec_cmd: ethsw add_nio SA-SW19 udp-f712d4cb-c7d0-47db-9ca1-6af57bc738bb 
+Nov 09 20:46:24.337 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW19 udp-f712d4cb-c7d0-47db-9ca1-6af57bc738bb 1 
+Nov 10 01:41:40.231 HYPERVISOR: exec_cmd: ethsw delete SA-SW19 
+Nov 10 01:41:40.352 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 10 01:41:40.506 HYPERVISOR: Stopped.
+Nov 10 01:41:40.506 GENERAL: reset done.

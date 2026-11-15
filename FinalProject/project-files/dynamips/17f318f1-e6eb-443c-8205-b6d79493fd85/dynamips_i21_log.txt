@@ -1,0 +1,86 @@
+Nov 09 20:46:16.615 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 09 20:46:16.615 HYPERVISOR: Started on IP = localhost, TCP port = 63731.
+Nov 09 20:46:16.617 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 09 20:46:16.618 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\TestProjecty\project-files\dynamips 
+Nov 09 20:46:16.618 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\TestProjecty\project-files\dynamips
+Nov 09 20:46:16.618 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\TestProjecty\project-files\dynamips\7be89349-9878-4b34-8f1b-5de6ef13f69d 
+Nov 09 20:46:16.618 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\TestProjecty\project-files\dynamips\7be89349-9878-4b34-8f1b-5de6ef13f69d
+Nov 09 20:46:16.618 HYPERVISOR: exec_cmd: vm create S13-R2 20 c3745 
+Nov 09 20:46:16.619 VM: VM S13-R2 created.
+Nov 09 20:46:16.619 HYPERVISOR: exec_cmd: vm set_con_tcp_port S13-R2 5032 
+Nov 09 20:46:16.619 HYPERVISOR: exec_cmd: c3745 get_mac_addr S13-R2 
+Nov 09 20:46:16.620 HYPERVISOR: exec_cmd: vm set_disk0 S13-R2 0 
+Nov 09 20:46:16.620 HYPERVISOR: exec_cmd: vm set_exec_area S13-R2 64 
+Nov 09 20:46:16.620 HYPERVISOR: exec_cmd: vm get_status S13-R2 
+Nov 09 20:46:16.620 HYPERVISOR: exec_cmd: vm set_idle_pc S13-R2 0x60aa1da0 
+Nov 09 20:46:16.621 HYPERVISOR: exec_cmd: vm set_ios S13-R2 C:/Users/jayda/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Nov 09 20:46:16.621 HYPERVISOR: exec_cmd: c3745 set_mac_addr S13-R2 c414.8fec.0000 
+Nov 09 20:46:16.621 HYPERVISOR: exec_cmd: vm set_nvram S13-R2 256 
+Nov 09 20:46:16.622 HYPERVISOR: exec_cmd: vm set_ram S13-R2 256 
+Nov 09 20:46:16.622 HYPERVISOR: exec_cmd: vm get_status S13-R2 
+Nov 09 20:46:16.622 HYPERVISOR: exec_cmd: vm slot_add_binding S13-R2 1 0 NM-1FE-TX 
+Nov 09 20:46:16.622 HYPERVISOR: exec_cmd: vm get_status S13-R2 
+Nov 09 20:46:16.622 HYPERVISOR: exec_cmd: vm slot_add_binding S13-R2 2 0 NM-1FE-TX 
+Nov 09 20:46:16.623 HYPERVISOR: exec_cmd: vm get_status S13-R2 
+Nov 09 20:46:16.623 HYPERVISOR: exec_cmd: vm slot_add_binding S13-R2 3 0 NM-1FE-TX 
+Nov 09 20:46:16.623 HYPERVISOR: exec_cmd: vm get_status S13-R2 
+Nov 09 20:46:16.623 HYPERVISOR: exec_cmd: vm slot_add_binding S13-R2 4 0 NM-1FE-TX 
+Nov 09 20:46:16.623 HYPERVISOR: exec_cmd: vm get_status S13-R2 
+Nov 09 20:46:16.623 HYPERVISOR: exec_cmd: vm slot_add_binding S13-R2 0 16 WIC-2T 
+Nov 09 20:46:16.623 HYPERVISOR: exec_cmd: vm get_status S13-R2 
+Nov 09 20:46:16.623 HYPERVISOR: exec_cmd: vm slot_add_binding S13-R2 0 32 WIC-2T 
+Nov 09 20:46:16.623 HYPERVISOR: exec_cmd: vm get_status S13-R2 
+Nov 09 20:46:16.623 HYPERVISOR: exec_cmd: vm slot_add_binding S13-R2 0 48 WIC-2T 
+Nov 09 20:46:27.787 HYPERVISOR: exec_cmd: nio create_udp udp-02c3a3ce-a9b5-462a-8db5-7657dc7f5ccb 20070 127.0.0.1 20071 
+Nov 09 20:46:28.055 HYPERVISOR: exec_cmd: vm slot_add_nio_binding S13-R2 0 0 udp-02c3a3ce-a9b5-462a-8db5-7657dc7f5ccb 
+Nov 09 20:46:28.055 HYPERVISOR: exec_cmd: vm get_status S13-R2 
+Nov 09 20:46:33.776 HYPERVISOR: exec_cmd: nio create_udp udp-de406b38-2c7d-43b6-ab8e-e630405f7b96 20168 127.0.0.1 20169 
+Nov 09 20:46:33.777 HYPERVISOR: exec_cmd: vm slot_add_nio_binding S13-R2 0 1 udp-de406b38-2c7d-43b6-ab8e-e630405f7b96 
+Nov 09 20:46:33.777 HYPERVISOR: exec_cmd: vm get_status S13-R2 
+Nov 09 20:46:34.478 HYPERVISOR: exec_cmd: nio create_udp udp-fed8165e-fc2d-4173-9b9a-4d26eef05e42 20228 127.0.0.1 20229 
+Nov 09 20:46:34.479 HYPERVISOR: exec_cmd: vm slot_add_nio_binding S13-R2 1 0 udp-fed8165e-fc2d-4173-9b9a-4d26eef05e42 
+Nov 09 20:46:34.480 HYPERVISOR: exec_cmd: vm get_status S13-R2 
+Nov 09 20:46:34.548 HYPERVISOR: exec_cmd: nio create_udp udp-fc32ade1-9534-4a5a-be3d-388c9b5f8236 20232 127.0.0.1 20233 
+Nov 09 20:46:34.550 HYPERVISOR: exec_cmd: vm slot_add_nio_binding S13-R2 2 0 udp-fc32ade1-9534-4a5a-be3d-388c9b5f8236 
+Nov 09 20:46:34.550 HYPERVISOR: exec_cmd: vm get_status S13-R2 
+Nov 09 20:46:39.364 HYPERVISOR: exec_cmd: nio create_udp udp-e9a86635-1212-46ab-897d-24c4b0e9825f 20412 127.0.0.1 20413 
+Nov 09 20:46:39.366 HYPERVISOR: exec_cmd: vm slot_add_nio_binding S13-R2 3 0 udp-e9a86635-1212-46ab-897d-24c4b0e9825f 
+Nov 09 20:46:39.367 HYPERVISOR: exec_cmd: vm get_status S13-R2 
+Nov 09 20:48:57.773 HYPERVISOR: exec_cmd: vm set_ghost_status S13-R2 2 
+Nov 09 20:48:57.776 HYPERVISOR: exec_cmd: vm set_ghost_file S13-R2 C:\Users\jayda\GNS3\projects\TestProjecty\project-files\dynamips\c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Nov 09 20:48:57.776 HYPERVISOR: exec_cmd: vm get_status S13-R2 
+Nov 09 20:48:57.777 HYPERVISOR: exec_cmd: vm set_config S13-R2 configs\i20_startup-config.cfg 
+Nov 09 20:48:57.777 HYPERVISOR: exec_cmd: vm start S13-R2 
+Nov 09 22:17:00.003 HYPERVISOR: exec_cmd: vm extract_config S13-R2 
+Nov 09 22:17:00.010 HYPERVISOR: exec_cmd: vm extract_config S13-R2 
+Nov 09 23:43:10.838 HYPERVISOR: exec_cmd: vm get_status S13-R2 
+Nov 09 23:43:10.838 HYPERVISOR: exec_cmd: vm stop S13-R2 
+Nov 09 23:43:11.057 VM: VM S13-R2 shutdown.
+Nov 09 23:43:11.058 HYPERVISOR: exec_cmd: vm extract_config S13-R2 
+Nov 10 01:39:34.798 HYPERVISOR: exec_cmd: vm set_ghost_status S13-R2 2 
+Nov 10 01:39:34.799 HYPERVISOR: exec_cmd: vm set_ghost_file S13-R2 C:\Users\jayda\GNS3\projects\TestProjecty\project-files\dynamips\c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Nov 10 01:39:34.799 HYPERVISOR: exec_cmd: vm get_status S13-R2 
+Nov 10 01:39:34.801 HYPERVISOR: exec_cmd: vm set_config S13-R2 configs\i20_startup-config.cfg 
+Nov 10 01:39:34.801 HYPERVISOR: exec_cmd: vm start S13-R2 
+Nov 10 01:40:21.849 HYPERVISOR: exec_cmd: vm get_status S13-R2 
+Nov 10 01:40:21.849 HYPERVISOR: exec_cmd: vm stop S13-R2 
+Nov 10 01:40:22.086 VM: VM S13-R2 shutdown.
+Nov 10 01:40:22.087 HYPERVISOR: exec_cmd: vm extract_config S13-R2 
+Nov 10 01:40:40.932 HYPERVISOR: exec_cmd: vm set_ghost_status S13-R2 2 
+Nov 10 01:40:40.933 HYPERVISOR: exec_cmd: vm set_ghost_file S13-R2 C:\Users\jayda\GNS3\projects\TestProjecty\project-files\dynamips\c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Nov 10 01:40:40.933 HYPERVISOR: exec_cmd: vm get_status S13-R2 
+Nov 10 01:40:40.936 HYPERVISOR: exec_cmd: vm set_config S13-R2 configs\i20_startup-config.cfg 
+Nov 10 01:40:40.936 HYPERVISOR: exec_cmd: vm start S13-R2 
+Nov 10 01:41:35.593 HYPERVISOR: exec_cmd: vm get_status S13-R2 
+Nov 10 01:41:35.593 HYPERVISOR: exec_cmd: vm stop S13-R2 
+Nov 10 01:41:35.829 VM: VM S13-R2 shutdown.
+Nov 10 01:41:35.830 HYPERVISOR: exec_cmd: vm extract_config S13-R2 
+Nov 10 01:41:40.145 HYPERVISOR: exec_cmd: vm get_status S13-R2 
+Nov 10 01:41:40.145 HYPERVISOR: exec_cmd: vm extract_config S13-R2 
+Nov 10 01:41:40.466 HYPERVISOR: exec_cmd: vm get_status S13-R2 
+Nov 10 01:41:40.468 HYPERVISOR: exec_cmd: vm extract_config S13-R2 
+Nov 10 01:41:40.477 HYPERVISOR: exec_cmd: vm delete S13-R2 
+Nov 10 01:41:40.478 VM: VM S13-R2 destroyed.
+Nov 10 01:41:40.483 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 10 01:41:40.818 HYPERVISOR: Stopped.
+Nov 10 01:41:40.819 GENERAL: reset done.

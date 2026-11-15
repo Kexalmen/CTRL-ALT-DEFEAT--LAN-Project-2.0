@@ -1,0 +1,43 @@
+Nov 09 05:00:23.270 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 09 05:00:23.270 HYPERVISOR: Started on IP = localhost, TCP port = 65078.
+Nov 09 05:00:23.273 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 09 05:00:23.273 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\TestProjecty\project-files\dynamips 
+Nov 09 05:00:23.273 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\TestProjecty\project-files\dynamips
+Nov 09 05:00:23.273 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\TestProjecty\project-files\dynamips\7f7d1d6e-f8eb-48fd-9e47-55468731e710 
+Nov 09 05:00:23.273 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\TestProjecty\project-files\dynamips\7f7d1d6e-f8eb-48fd-9e47-55468731e710
+Nov 09 05:00:23.273 HYPERVISOR: exec_cmd: vm create R6 6 c3745 
+Nov 09 05:00:23.274 VM: VM R6 created.
+Nov 09 05:00:23.274 HYPERVISOR: exec_cmd: vm set_con_tcp_port R6 5018 
+Nov 09 05:00:23.274 HYPERVISOR: exec_cmd: c3745 get_mac_addr R6 
+Nov 09 05:00:23.274 HYPERVISOR: exec_cmd: vm set_disk0 R6 0 
+Nov 09 05:00:23.274 HYPERVISOR: exec_cmd: vm set_exec_area R6 64 
+Nov 09 05:00:23.275 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 09 05:00:23.275 HYPERVISOR: exec_cmd: vm set_idle_pc R6 0x60aa1da0 
+Nov 09 05:00:23.275 HYPERVISOR: exec_cmd: vm set_ios R6 C:/Users/jayda/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Nov 09 05:00:23.275 HYPERVISOR: exec_cmd: c3745 set_mac_addr R6 c406.0d1c.0000 
+Nov 09 05:00:23.275 HYPERVISOR: exec_cmd: vm set_nvram R6 256 
+Nov 09 05:00:23.275 HYPERVISOR: exec_cmd: vm set_ram R6 256 
+Nov 09 05:00:23.275 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 09 05:00:23.275 HYPERVISOR: exec_cmd: vm slot_add_binding R6 1 0 NM-1FE-TX 
+Nov 09 05:00:23.276 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 09 05:00:23.276 HYPERVISOR: exec_cmd: vm slot_add_binding R6 2 0 NM-1FE-TX 
+Nov 09 05:00:23.276 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 09 05:00:23.276 HYPERVISOR: exec_cmd: vm slot_add_binding R6 3 0 NM-1FE-TX 
+Nov 09 05:00:23.276 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 09 05:00:23.276 HYPERVISOR: exec_cmd: vm slot_add_binding R6 4 0 NM-1FE-TX 
+Nov 09 05:00:23.276 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 09 05:00:23.276 HYPERVISOR: exec_cmd: vm slot_add_binding R6 0 16 WIC-2T 
+Nov 09 05:00:23.276 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 09 05:00:23.276 HYPERVISOR: exec_cmd: vm slot_add_binding R6 0 32 WIC-2T 
+Nov 09 05:00:23.276 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 09 05:00:23.276 HYPERVISOR: exec_cmd: vm slot_add_binding R6 0 48 WIC-2T 
+Nov 09 05:00:28.568 HYPERVISOR: exec_cmd: nio create_udp udp-14e3bffc-580a-4a11-b73e-f4f6b6fd9656 2073 127.0.0.1 2074 
+Nov 09 05:00:28.817 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 0 0 udp-14e3bffc-580a-4a11-b73e-f4f6b6fd9656 
+Nov 09 05:00:28.818 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 09 05:00:34.827 HYPERVISOR: exec_cmd: vm get_status R6 
+Nov 09 05:00:34.828 HYPERVISOR: exec_cmd: vm extract_config R6 
+Nov 09 05:00:34.828 HYPERVISOR: exec_cmd: vm delete R6 
+Nov 09 05:00:34.829 VM: VM R6 destroyed.
+Nov 09 05:00:34.829 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 09 05:00:34.910 HYPERVISOR: Stopped.
+Nov 09 05:00:34.910 GENERAL: reset done.

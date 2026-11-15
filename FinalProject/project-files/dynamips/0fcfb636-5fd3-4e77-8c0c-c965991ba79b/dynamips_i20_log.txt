@@ -1,0 +1,43 @@
+Nov 09 05:00:23.884 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 09 05:00:23.884 HYPERVISOR: Started on IP = localhost, TCP port = 65117.
+Nov 09 05:00:23.887 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 09 05:00:23.887 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\TestProjecty\project-files\dynamips 
+Nov 09 05:00:23.887 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\TestProjecty\project-files\dynamips
+Nov 09 05:00:23.888 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\TestProjecty\project-files\dynamips\ee90609e-ea4f-4e69-afe2-afac8e456da4 
+Nov 09 05:00:23.888 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\TestProjecty\project-files\dynamips\ee90609e-ea4f-4e69-afe2-afac8e456da4
+Nov 09 05:00:23.888 HYPERVISOR: exec_cmd: vm create R19 19 c3745 
+Nov 09 05:00:23.889 VM: VM R19 created.
+Nov 09 05:00:23.889 HYPERVISOR: exec_cmd: vm set_con_tcp_port R19 5031 
+Nov 09 05:00:23.889 HYPERVISOR: exec_cmd: c3745 get_mac_addr R19 
+Nov 09 05:00:23.889 HYPERVISOR: exec_cmd: vm set_disk0 R19 0 
+Nov 09 05:00:23.889 HYPERVISOR: exec_cmd: vm set_exec_area R19 64 
+Nov 09 05:00:23.890 HYPERVISOR: exec_cmd: vm get_status R19 
+Nov 09 05:00:23.890 HYPERVISOR: exec_cmd: vm set_idle_pc R19 0x60aa1da0 
+Nov 09 05:00:23.890 HYPERVISOR: exec_cmd: vm set_ios R19 C:/Users/jayda/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Nov 09 05:00:23.891 HYPERVISOR: exec_cmd: c3745 set_mac_addr R19 c413.8ddc.0000 
+Nov 09 05:00:23.891 HYPERVISOR: exec_cmd: vm set_nvram R19 256 
+Nov 09 05:00:23.891 HYPERVISOR: exec_cmd: vm set_ram R19 256 
+Nov 09 05:00:23.891 HYPERVISOR: exec_cmd: vm get_status R19 
+Nov 09 05:00:23.892 HYPERVISOR: exec_cmd: vm slot_add_binding R19 1 0 NM-1FE-TX 
+Nov 09 05:00:23.892 HYPERVISOR: exec_cmd: vm get_status R19 
+Nov 09 05:00:23.892 HYPERVISOR: exec_cmd: vm slot_add_binding R19 2 0 NM-1FE-TX 
+Nov 09 05:00:23.892 HYPERVISOR: exec_cmd: vm get_status R19 
+Nov 09 05:00:23.892 HYPERVISOR: exec_cmd: vm slot_add_binding R19 3 0 NM-1FE-TX 
+Nov 09 05:00:23.892 HYPERVISOR: exec_cmd: vm get_status R19 
+Nov 09 05:00:23.892 HYPERVISOR: exec_cmd: vm slot_add_binding R19 4 0 NM-1FE-TX 
+Nov 09 05:00:23.892 HYPERVISOR: exec_cmd: vm get_status R19 
+Nov 09 05:00:23.892 HYPERVISOR: exec_cmd: vm slot_add_binding R19 0 16 WIC-2T 
+Nov 09 05:00:23.893 HYPERVISOR: exec_cmd: vm get_status R19 
+Nov 09 05:00:23.893 HYPERVISOR: exec_cmd: vm slot_add_binding R19 0 32 WIC-2T 
+Nov 09 05:00:23.893 HYPERVISOR: exec_cmd: vm get_status R19 
+Nov 09 05:00:23.893 HYPERVISOR: exec_cmd: vm slot_add_binding R19 0 48 WIC-2T 
+Nov 09 05:00:33.988 HYPERVISOR: exec_cmd: nio create_udp udp-60708523-971f-4b89-b420-04ec10bf6776 2173 127.0.0.1 2174 
+Nov 09 05:00:34.268 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R19 0 0 udp-60708523-971f-4b89-b420-04ec10bf6776 
+Nov 09 05:00:34.269 HYPERVISOR: exec_cmd: vm get_status R19 
+Nov 09 05:00:34.726 HYPERVISOR: exec_cmd: vm get_status R19 
+Nov 09 05:00:34.727 HYPERVISOR: exec_cmd: vm extract_config R19 
+Nov 09 05:00:34.727 HYPERVISOR: exec_cmd: vm delete R19 
+Nov 09 05:00:34.727 VM: VM R19 destroyed.
+Nov 09 05:00:34.729 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 09 05:00:35.004 HYPERVISOR: Stopped.
+Nov 09 05:00:35.004 GENERAL: reset done.
