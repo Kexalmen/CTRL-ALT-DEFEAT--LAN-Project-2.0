@@ -1,0 +1,18 @@
+Nov 24 17:50:04.562 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 24 17:50:04.562 HYPERVISOR: Started on IP = localhost, TCP port = 51918.
+Nov 24 17:50:05.056 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 24 17:50:05.057 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\FinalProject-Redistribution Test\project-files\dynamips 
+Nov 24 17:50:05.057 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\FinalProject-Redistribution Test\project-files\dynamips
+Nov 24 17:50:05.058 HYPERVISOR: exec_cmd: ethsw create SA-SW16 
+Nov 24 17:50:24.764 HYPERVISOR: exec_cmd: nio create_udp udp-e387c500-793f-4f00-8c54-cda9f610b8cb 20118 127.0.0.1 20119 
+Nov 24 17:50:24.765 HYPERVISOR: exec_cmd: ethsw add_nio SA-SW16 udp-e387c500-793f-4f00-8c54-cda9f610b8cb 
+Nov 24 17:50:24.782 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SA-SW16 udp-e387c500-793f-4f00-8c54-cda9f610b8cb 1 
+Nov 24 17:50:25.188 HYPERVISOR: exec_cmd: nio create_udp udp-0551b99d-ab8e-4aa1-b28d-f7a1aca19548 20122 127.0.0.1 20123 
+Nov 24 17:50:25.189 HYPERVISOR: exec_cmd: ethsw add_nio SA-SW16 udp-0551b99d-ab8e-4aa1-b28d-f7a1aca19548 
+Nov 24 17:50:25.190 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW16 udp-0551b99d-ab8e-4aa1-b28d-f7a1aca19548 321 
+Nov 24 17:50:25.321 HYPERVISOR: exec_cmd: nio create_udp udp-b3e1d5c9-64b1-4309-b776-13c9f3de4b6a 20124 127.0.0.1 20125 
+Nov 24 17:50:25.322 HYPERVISOR: exec_cmd: ethsw add_nio SA-SW16 udp-b3e1d5c9-64b1-4309-b776-13c9f3de4b6a 
+Nov 24 17:50:25.347 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW16 udp-b3e1d5c9-64b1-4309-b776-13c9f3de4b6a 331 
+Nov 24 17:50:37.564 HYPERVISOR: exec_cmd: nio create_udp udp-96515bb1-6487-4d8b-989b-893ef13a5cfd 20403 127.0.0.1 20402 
+Nov 24 17:50:37.565 HYPERVISOR: exec_cmd: ethsw add_nio SA-SW16 udp-96515bb1-6487-4d8b-989b-893ef13a5cfd 
+Nov 24 17:50:37.576 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SW16 udp-96515bb1-6487-4d8b-989b-893ef13a5cfd 311 
