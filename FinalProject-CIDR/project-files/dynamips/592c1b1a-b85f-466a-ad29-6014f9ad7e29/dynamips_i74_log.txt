@@ -1,0 +1,42 @@
+Nov 25 20:02:05.235 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 25 20:02:05.236 HYPERVISOR: Started on IP = localhost, TCP port = 50090.
+Nov 25 20:02:05.735 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 25 20:02:05.736 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips 
+Nov 25 20:02:05.736 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips
+Nov 25 20:02:05.736 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips\baa11864-9ec5-467f-9442-5020a2370a8f 
+Nov 25 20:02:05.738 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips\baa11864-9ec5-467f-9442-5020a2370a8f
+Nov 25 20:02:05.738 HYPERVISOR: exec_cmd: vm create A-R6 51 c3745 
+Nov 25 20:02:05.739 VM: VM A-R6 created.
+Nov 25 20:02:05.740 HYPERVISOR: exec_cmd: vm set_con_tcp_port A-R6 5116 
+Nov 25 20:02:05.740 HYPERVISOR: exec_cmd: c3745 get_mac_addr A-R6 
+Nov 25 20:02:05.740 HYPERVISOR: exec_cmd: vm set_disk0 A-R6 0 
+Nov 25 20:02:05.740 HYPERVISOR: exec_cmd: vm set_exec_area A-R6 64 
+Nov 25 20:02:05.741 HYPERVISOR: exec_cmd: vm get_status A-R6 
+Nov 25 20:02:05.741 HYPERVISOR: exec_cmd: vm set_idle_pc A-R6 0x60aa1da0 
+Nov 25 20:02:05.741 HYPERVISOR: exec_cmd: vm set_ios A-R6 C:/Users/jayda/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Nov 25 20:02:05.741 HYPERVISOR: exec_cmd: c3745 set_mac_addr A-R6 c433.6a30.0000 
+Nov 25 20:02:05.742 HYPERVISOR: exec_cmd: vm set_nvram A-R6 256 
+Nov 25 20:02:05.742 HYPERVISOR: exec_cmd: vm set_ram A-R6 256 
+Nov 25 20:02:05.742 HYPERVISOR: exec_cmd: vm get_status A-R6 
+Nov 25 20:02:05.742 HYPERVISOR: exec_cmd: vm slot_add_binding A-R6 1 0 NM-1FE-TX 
+Nov 25 20:02:05.742 HYPERVISOR: exec_cmd: vm get_status A-R6 
+Nov 25 20:02:05.742 HYPERVISOR: exec_cmd: vm slot_add_binding A-R6 2 0 NM-1FE-TX 
+Nov 25 20:02:05.742 HYPERVISOR: exec_cmd: vm get_status A-R6 
+Nov 25 20:02:05.742 HYPERVISOR: exec_cmd: vm slot_add_binding A-R6 3 0 NM-1FE-TX 
+Nov 25 20:02:05.743 HYPERVISOR: exec_cmd: vm get_status A-R6 
+Nov 25 20:02:05.743 HYPERVISOR: exec_cmd: vm slot_add_binding A-R6 4 0 NM-1FE-TX 
+Nov 25 20:02:05.743 HYPERVISOR: exec_cmd: vm get_status A-R6 
+Nov 25 20:02:05.743 HYPERVISOR: exec_cmd: vm slot_add_binding A-R6 0 16 WIC-2T 
+Nov 25 20:02:05.743 HYPERVISOR: exec_cmd: vm get_status A-R6 
+Nov 25 20:02:05.743 HYPERVISOR: exec_cmd: vm slot_add_binding A-R6 0 32 WIC-2T 
+Nov 25 20:02:05.743 HYPERVISOR: exec_cmd: vm get_status A-R6 
+Nov 25 20:02:05.743 HYPERVISOR: exec_cmd: vm slot_add_binding A-R6 0 48 WIC-2T 
+Nov 25 20:08:30.425 HYPERVISOR: exec_cmd: vm get_status A-R6 
+Nov 25 20:08:30.425 HYPERVISOR: exec_cmd: vm extract_config A-R6 
+Nov 25 20:08:30.590 HYPERVISOR: exec_cmd: vm get_status A-R6 
+Nov 25 20:08:30.598 HYPERVISOR: exec_cmd: vm extract_config A-R6 
+Nov 25 20:08:30.603 HYPERVISOR: exec_cmd: vm delete A-R6 
+Nov 25 20:08:30.609 VM: VM A-R6 destroyed.
+Nov 25 20:08:30.621 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 25 20:08:31.112 HYPERVISOR: Stopped.
+Nov 25 20:08:31.112 GENERAL: reset done.

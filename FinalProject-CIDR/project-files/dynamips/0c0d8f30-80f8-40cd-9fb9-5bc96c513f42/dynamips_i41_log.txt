@@ -1,0 +1,60 @@
+Nov 25 20:02:00.610 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 25 20:02:00.610 HYPERVISOR: Started on IP = localhost, TCP port = 49855.
+Nov 25 20:02:00.618 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 25 20:02:00.618 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips 
+Nov 25 20:02:00.618 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips
+Nov 25 20:02:00.618 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips\b810d256-7835-42e3-b03e-23370a64c951 
+Nov 25 20:02:00.618 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips\b810d256-7835-42e3-b03e-23370a64c951
+Nov 25 20:02:00.618 HYPERVISOR: exec_cmd: vm create POS-SW103 21 c3745 
+Nov 25 20:02:00.619 VM: VM POS-SW103 created.
+Nov 25 20:02:00.619 HYPERVISOR: exec_cmd: vm set_con_tcp_port POS-SW103 5275 
+Nov 25 20:02:00.619 HYPERVISOR: exec_cmd: c3745 get_mac_addr POS-SW103 
+Nov 25 20:02:00.619 HYPERVISOR: exec_cmd: vm set_disk0 POS-SW103 0 
+Nov 25 20:02:00.619 HYPERVISOR: exec_cmd: vm set_exec_area POS-SW103 64 
+Nov 25 20:02:00.619 HYPERVISOR: exec_cmd: vm get_status POS-SW103 
+Nov 25 20:02:00.619 HYPERVISOR: exec_cmd: vm set_idle_pc POS-SW103 0x60aa1da0 
+Nov 25 20:02:00.620 HYPERVISOR: exec_cmd: vm set_ios POS-SW103 C:/Users/jayda/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Nov 25 20:02:00.620 HYPERVISOR: exec_cmd: c3745 set_mac_addr POS-SW103 c415.6738.0000 
+Nov 25 20:02:00.620 HYPERVISOR: exec_cmd: vm set_nvram POS-SW103 256 
+Nov 25 20:02:00.620 HYPERVISOR: exec_cmd: vm set_ram POS-SW103 256 
+Nov 25 20:02:00.620 HYPERVISOR: exec_cmd: vm get_status POS-SW103 
+Nov 25 20:02:00.620 HYPERVISOR: exec_cmd: vm slot_add_binding POS-SW103 1 0 NM-16ESW 
+Nov 25 20:02:00.620 HYPERVISOR: exec_cmd: vm get_status POS-SW103 
+Nov 25 20:02:00.620 HYPERVISOR: exec_cmd: vm slot_add_binding POS-SW103 2 0 NM-1FE-TX 
+Nov 25 20:02:00.621 HYPERVISOR: exec_cmd: vm get_status POS-SW103 
+Nov 25 20:02:00.621 HYPERVISOR: exec_cmd: vm slot_add_binding POS-SW103 3 0 NM-1FE-TX 
+Nov 25 20:02:00.621 HYPERVISOR: exec_cmd: vm get_status POS-SW103 
+Nov 25 20:02:00.621 HYPERVISOR: exec_cmd: vm slot_add_binding POS-SW103 4 0 NM-1FE-TX 
+Nov 25 20:02:00.621 HYPERVISOR: exec_cmd: vm get_status POS-SW103 
+Nov 25 20:02:00.621 HYPERVISOR: exec_cmd: vm slot_add_binding POS-SW103 0 16 WIC-2T 
+Nov 25 20:02:00.621 HYPERVISOR: exec_cmd: vm get_status POS-SW103 
+Nov 25 20:02:00.621 HYPERVISOR: exec_cmd: vm slot_add_binding POS-SW103 0 32 WIC-2T 
+Nov 25 20:02:00.621 HYPERVISOR: exec_cmd: vm get_status POS-SW103 
+Nov 25 20:02:00.621 HYPERVISOR: exec_cmd: vm slot_add_binding POS-SW103 0 48 WIC-2T 
+Nov 25 20:02:41.479 HYPERVISOR: exec_cmd: nio create_udp udp-14f3964d-4f83-4e61-90ca-4cb441a89731 20368 127.0.0.1 20369 
+Nov 25 20:02:41.758 HYPERVISOR: exec_cmd: vm slot_add_nio_binding POS-SW103 1 0 udp-14f3964d-4f83-4e61-90ca-4cb441a89731 
+Nov 25 20:02:41.759 HYPERVISOR: exec_cmd: vm get_status POS-SW103 
+Nov 25 20:02:42.194 HYPERVISOR: exec_cmd: nio create_udp udp-f7a73473-0540-4f30-86d9-78732c3ac695 20376 127.0.0.1 20377 
+Nov 25 20:02:42.195 HYPERVISOR: exec_cmd: vm slot_add_nio_binding POS-SW103 1 1 udp-f7a73473-0540-4f30-86d9-78732c3ac695 
+Nov 25 20:02:42.195 HYPERVISOR: exec_cmd: vm get_status POS-SW103 
+Nov 25 20:02:42.345 HYPERVISOR: exec_cmd: nio create_udp udp-dc68564a-53e9-4e1a-a6b8-20260bc3d2a4 20382 127.0.0.1 20383 
+Nov 25 20:02:42.347 HYPERVISOR: exec_cmd: vm slot_add_nio_binding POS-SW103 1 4 udp-dc68564a-53e9-4e1a-a6b8-20260bc3d2a4 
+Nov 25 20:02:42.347 HYPERVISOR: exec_cmd: vm get_status POS-SW103 
+Nov 25 20:02:42.499 HYPERVISOR: exec_cmd: nio create_udp udp-f810e6dc-374b-4745-b0d6-0d8dc1aaa7b3 20388 127.0.0.1 20389 
+Nov 25 20:02:42.500 HYPERVISOR: exec_cmd: vm slot_add_nio_binding POS-SW103 1 5 udp-f810e6dc-374b-4745-b0d6-0d8dc1aaa7b3 
+Nov 25 20:02:42.501 HYPERVISOR: exec_cmd: vm get_status POS-SW103 
+Nov 25 20:02:43.685 HYPERVISOR: exec_cmd: nio create_udp udp-437958fd-be8c-4703-9a61-d2f0269454c8 20418 127.0.0.1 20419 
+Nov 25 20:02:43.687 HYPERVISOR: exec_cmd: vm slot_add_nio_binding POS-SW103 1 2 udp-437958fd-be8c-4703-9a61-d2f0269454c8 
+Nov 25 20:02:43.688 HYPERVISOR: exec_cmd: vm get_status POS-SW103 
+Nov 25 20:02:44.134 HYPERVISOR: exec_cmd: nio create_udp udp-a36905b0-302c-458d-b165-41d3c20d79cf 20424 127.0.0.1 20425 
+Nov 25 20:02:44.135 HYPERVISOR: exec_cmd: vm slot_add_nio_binding POS-SW103 1 3 udp-a36905b0-302c-458d-b165-41d3c20d79cf 
+Nov 25 20:02:44.136 HYPERVISOR: exec_cmd: vm get_status POS-SW103 
+Nov 25 20:08:30.376 HYPERVISOR: exec_cmd: vm get_status POS-SW103 
+Nov 25 20:08:30.377 HYPERVISOR: exec_cmd: vm extract_config POS-SW103 
+Nov 25 20:08:31.155 HYPERVISOR: exec_cmd: vm get_status POS-SW103 
+Nov 25 20:08:31.155 HYPERVISOR: exec_cmd: vm extract_config POS-SW103 
+Nov 25 20:08:31.156 HYPERVISOR: exec_cmd: vm delete POS-SW103 
+Nov 25 20:08:31.156 VM: VM POS-SW103 destroyed.
+Nov 25 20:08:31.157 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 25 20:08:31.596 HYPERVISOR: Stopped.
+Nov 25 20:08:31.596 GENERAL: reset done.

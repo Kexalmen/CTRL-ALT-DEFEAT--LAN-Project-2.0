@@ -1,0 +1,72 @@
+Nov 25 20:02:01.036 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 25 20:02:01.037 HYPERVISOR: Started on IP = localhost, TCP port = 49883.
+Nov 25 20:02:01.043 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 25 20:02:01.043 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips 
+Nov 25 20:02:01.043 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips
+Nov 25 20:02:01.043 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips\5c4e5779-5f01-44ae-a8d2-17438c7e833d 
+Nov 25 20:02:01.043 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips\5c4e5779-5f01-44ae-a8d2-17438c7e833d
+Nov 25 20:02:01.044 HYPERVISOR: exec_cmd: vm create CORE1 31 c3745 
+Nov 25 20:02:01.044 VM: VM CORE1 created.
+Nov 25 20:02:01.044 HYPERVISOR: exec_cmd: vm set_con_tcp_port CORE1 5294 
+Nov 25 20:02:01.044 HYPERVISOR: exec_cmd: c3745 get_mac_addr CORE1 
+Nov 25 20:02:01.044 HYPERVISOR: exec_cmd: vm set_disk0 CORE1 1 
+Nov 25 20:02:01.044 HYPERVISOR: exec_cmd: vm set_exec_area CORE1 64 
+Nov 25 20:02:01.045 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Nov 25 20:02:01.045 HYPERVISOR: exec_cmd: vm set_idle_pc CORE1 0x60aa1da0 
+Nov 25 20:02:01.045 HYPERVISOR: exec_cmd: vm set_ios CORE1 C:/Users/jayda/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Nov 25 20:02:01.045 HYPERVISOR: exec_cmd: c3745 set_mac_addr CORE1 c41f.4d08.0000 
+Nov 25 20:02:01.045 HYPERVISOR: exec_cmd: vm set_nvram CORE1 256 
+Nov 25 20:02:01.045 HYPERVISOR: exec_cmd: vm set_ram CORE1 256 
+Nov 25 20:02:01.045 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Nov 25 20:02:01.046 HYPERVISOR: exec_cmd: vm slot_add_binding CORE1 1 0 NM-16ESW 
+Nov 25 20:02:01.046 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Nov 25 20:02:01.046 HYPERVISOR: exec_cmd: vm slot_add_binding CORE1 2 0 NM-1FE-TX 
+Nov 25 20:02:01.046 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Nov 25 20:02:01.046 HYPERVISOR: exec_cmd: vm slot_add_binding CORE1 3 0 NM-1FE-TX 
+Nov 25 20:02:01.046 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Nov 25 20:02:01.046 HYPERVISOR: exec_cmd: vm slot_add_binding CORE1 4 0 NM-1FE-TX 
+Nov 25 20:02:01.046 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Nov 25 20:02:01.046 HYPERVISOR: exec_cmd: vm slot_add_binding CORE1 0 16 WIC-2T 
+Nov 25 20:02:01.046 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Nov 25 20:02:01.046 HYPERVISOR: exec_cmd: vm slot_add_binding CORE1 0 32 WIC-2T 
+Nov 25 20:02:01.046 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Nov 25 20:02:01.046 HYPERVISOR: exec_cmd: vm slot_add_binding CORE1 0 48 WIC-2T 
+Nov 25 20:02:45.510 HYPERVISOR: exec_cmd: nio create_udp udp-9706fcbb-3619-431a-bad6-6046dcd1c8ca 20456 127.0.0.1 20457 
+Nov 25 20:02:45.815 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CORE1 1 2 udp-9706fcbb-3619-431a-bad6-6046dcd1c8ca 
+Nov 25 20:02:45.815 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Nov 25 20:02:45.962 HYPERVISOR: exec_cmd: nio create_udp udp-df849b86-bb2c-4ffc-a811-7a7de0613eee 20462 127.0.0.1 20463 
+Nov 25 20:02:45.964 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CORE1 1 3 udp-df849b86-bb2c-4ffc-a811-7a7de0613eee 
+Nov 25 20:02:45.964 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Nov 25 20:02:47.052 HYPERVISOR: exec_cmd: nio create_udp udp-df27409d-9d5c-42a2-8399-af3d39c84985 20490 127.0.0.1 20491 
+Nov 25 20:02:47.054 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CORE1 1 4 udp-df27409d-9d5c-42a2-8399-af3d39c84985 
+Nov 25 20:02:47.054 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Nov 25 20:02:47.209 HYPERVISOR: exec_cmd: nio create_udp udp-ad64e3de-a49c-46cf-b95a-0049378ba0ef 20496 127.0.0.1 20497 
+Nov 25 20:02:47.210 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CORE1 1 5 udp-ad64e3de-a49c-46cf-b95a-0049378ba0ef 
+Nov 25 20:02:47.211 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Nov 25 20:02:47.361 HYPERVISOR: exec_cmd: nio create_udp udp-b7806762-f8a5-4795-9ea8-c2f66f52f015 20502 127.0.0.1 20503 
+Nov 25 20:02:47.363 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CORE1 1 0 udp-b7806762-f8a5-4795-9ea8-c2f66f52f015 
+Nov 25 20:02:47.363 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Nov 25 20:02:47.827 HYPERVISOR: exec_cmd: nio create_udp udp-1aaab560-58b1-4758-bcd8-52563cc8e4af 20508 127.0.0.1 20509 
+Nov 25 20:02:47.829 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CORE1 1 8 udp-1aaab560-58b1-4758-bcd8-52563cc8e4af 
+Nov 25 20:02:47.829 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Nov 25 20:02:47.984 HYPERVISOR: exec_cmd: nio create_udp udp-b8fdf2c1-e650-4ed4-aa4b-4e8ced07b99a 20514 127.0.0.1 20515 
+Nov 25 20:02:47.987 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CORE1 1 9 udp-b8fdf2c1-e650-4ed4-aa4b-4e8ced07b99a 
+Nov 25 20:02:47.987 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Nov 25 20:02:48.141 HYPERVISOR: exec_cmd: nio create_udp udp-f938bb93-345e-48a2-9c94-8ed4622998a6 20520 127.0.0.1 20521 
+Nov 25 20:02:48.143 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CORE1 1 6 udp-f938bb93-345e-48a2-9c94-8ed4622998a6 
+Nov 25 20:02:48.144 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Nov 25 20:02:48.606 HYPERVISOR: exec_cmd: nio create_udp udp-26684b4f-c38c-41af-8770-cb5d59b1de9e 20526 127.0.0.1 20527 
+Nov 25 20:02:48.607 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CORE1 1 7 udp-26684b4f-c38c-41af-8770-cb5d59b1de9e 
+Nov 25 20:02:48.608 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Nov 25 20:02:51.447 HYPERVISOR: exec_cmd: nio create_udp udp-29bf96eb-2cbd-4468-8423-b293036fce20 20588 127.0.0.1 20589 
+Nov 25 20:02:51.448 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CORE1 1 1 udp-29bf96eb-2cbd-4468-8423-b293036fce20 
+Nov 25 20:02:51.449 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Nov 25 20:08:30.387 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Nov 25 20:08:30.387 HYPERVISOR: exec_cmd: vm extract_config CORE1 
+Nov 25 20:08:31.155 HYPERVISOR: exec_cmd: vm get_status CORE1 
+Nov 25 20:08:31.156 HYPERVISOR: exec_cmd: vm extract_config CORE1 
+Nov 25 20:08:31.157 HYPERVISOR: exec_cmd: vm delete CORE1 
+Nov 25 20:08:31.157 VM: VM CORE1 destroyed.
+Nov 25 20:08:31.157 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 25 20:08:31.485 HYPERVISOR: Stopped.
+Nov 25 20:08:31.485 GENERAL: reset done.

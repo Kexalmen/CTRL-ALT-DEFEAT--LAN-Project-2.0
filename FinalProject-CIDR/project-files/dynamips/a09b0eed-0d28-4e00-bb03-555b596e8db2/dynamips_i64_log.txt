@@ -1,0 +1,42 @@
+Nov 25 20:02:01.697 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 25 20:02:01.697 HYPERVISOR: Started on IP = localhost, TCP port = 49960.
+Nov 25 20:02:01.701 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 25 20:02:01.701 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips 
+Nov 25 20:02:01.702 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips
+Nov 25 20:02:01.702 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips\f1130639-fd9e-4221-b4bf-4e1c548e924d 
+Nov 25 20:02:01.702 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips\f1130639-fd9e-4221-b4bf-4e1c548e924d
+Nov 25 20:02:01.702 HYPERVISOR: exec_cmd: vm create ISP1-CPE 41 c3745 
+Nov 25 20:02:01.703 VM: VM ISP1-CPE created.
+Nov 25 20:02:01.703 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP1-CPE 5075 
+Nov 25 20:02:01.703 HYPERVISOR: exec_cmd: c3745 get_mac_addr ISP1-CPE 
+Nov 25 20:02:01.703 HYPERVISOR: exec_cmd: vm set_disk0 ISP1-CPE 0 
+Nov 25 20:02:01.703 HYPERVISOR: exec_cmd: vm set_exec_area ISP1-CPE 64 
+Nov 25 20:02:01.704 HYPERVISOR: exec_cmd: vm get_status ISP1-CPE 
+Nov 25 20:02:01.704 HYPERVISOR: exec_cmd: vm set_idle_pc ISP1-CPE 0x60aa1da0 
+Nov 25 20:02:01.704 HYPERVISOR: exec_cmd: vm set_ios ISP1-CPE C:/Users/jayda/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Nov 25 20:02:01.704 HYPERVISOR: exec_cmd: c3745 set_mac_addr ISP1-CPE c429.566c.0000 
+Nov 25 20:02:01.705 HYPERVISOR: exec_cmd: vm set_nvram ISP1-CPE 256 
+Nov 25 20:02:01.705 HYPERVISOR: exec_cmd: vm set_ram ISP1-CPE 256 
+Nov 25 20:02:01.705 HYPERVISOR: exec_cmd: vm get_status ISP1-CPE 
+Nov 25 20:02:01.705 HYPERVISOR: exec_cmd: vm slot_add_binding ISP1-CPE 1 0 NM-1FE-TX 
+Nov 25 20:02:01.705 HYPERVISOR: exec_cmd: vm get_status ISP1-CPE 
+Nov 25 20:02:01.705 HYPERVISOR: exec_cmd: vm slot_add_binding ISP1-CPE 2 0 NM-1FE-TX 
+Nov 25 20:02:01.705 HYPERVISOR: exec_cmd: vm get_status ISP1-CPE 
+Nov 25 20:02:01.705 HYPERVISOR: exec_cmd: vm slot_add_binding ISP1-CPE 3 0 NM-1FE-TX 
+Nov 25 20:02:01.706 HYPERVISOR: exec_cmd: vm get_status ISP1-CPE 
+Nov 25 20:02:01.706 HYPERVISOR: exec_cmd: vm slot_add_binding ISP1-CPE 4 0 NM-1FE-TX 
+Nov 25 20:02:01.706 HYPERVISOR: exec_cmd: vm get_status ISP1-CPE 
+Nov 25 20:02:01.706 HYPERVISOR: exec_cmd: vm slot_add_binding ISP1-CPE 0 16 WIC-2T 
+Nov 25 20:02:01.706 HYPERVISOR: exec_cmd: vm get_status ISP1-CPE 
+Nov 25 20:02:01.706 HYPERVISOR: exec_cmd: vm slot_add_binding ISP1-CPE 0 32 WIC-2T 
+Nov 25 20:02:01.706 HYPERVISOR: exec_cmd: vm get_status ISP1-CPE 
+Nov 25 20:02:01.706 HYPERVISOR: exec_cmd: vm slot_add_binding ISP1-CPE 0 48 WIC-2T 
+Nov 25 20:08:30.414 HYPERVISOR: exec_cmd: vm get_status ISP1-CPE 
+Nov 25 20:08:30.414 HYPERVISOR: exec_cmd: vm extract_config ISP1-CPE 
+Nov 25 20:08:30.593 HYPERVISOR: exec_cmd: vm get_status ISP1-CPE 
+Nov 25 20:08:30.599 HYPERVISOR: exec_cmd: vm extract_config ISP1-CPE 
+Nov 25 20:08:30.605 HYPERVISOR: exec_cmd: vm delete ISP1-CPE 
+Nov 25 20:08:30.610 VM: VM ISP1-CPE destroyed.
+Nov 25 20:08:30.616 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 25 20:08:31.091 HYPERVISOR: Stopped.
+Nov 25 20:08:31.091 GENERAL: reset done.

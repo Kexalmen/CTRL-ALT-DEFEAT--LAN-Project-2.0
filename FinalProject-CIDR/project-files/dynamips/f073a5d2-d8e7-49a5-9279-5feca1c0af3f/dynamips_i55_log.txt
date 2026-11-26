@@ -1,0 +1,79 @@
+Nov 25 20:02:01.271 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 25 20:02:01.271 HYPERVISOR: Started on IP = localhost, TCP port = 49898.
+Nov 25 20:02:01.276 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 25 20:02:01.276 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips 
+Nov 25 20:02:01.276 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips
+Nov 25 20:02:01.276 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips\f1ed7bcb-96f9-4430-916a-405c8000af50 
+Nov 25 20:02:01.277 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips\f1ed7bcb-96f9-4430-916a-405c8000af50
+Nov 25 20:02:01.277 HYPERVISOR: exec_cmd: vm create Edge-Fiber-102 30 c3745 
+Nov 25 20:02:01.277 VM: VM Edge-Fiber-102 created.
+Nov 25 20:02:01.278 HYPERVISOR: exec_cmd: vm set_con_tcp_port Edge-Fiber-102 5303 
+Nov 25 20:02:01.278 HYPERVISOR: exec_cmd: c3745 get_mac_addr Edge-Fiber-102 
+Nov 25 20:02:01.278 HYPERVISOR: exec_cmd: vm set_disk0 Edge-Fiber-102 1 
+Nov 25 20:02:01.278 HYPERVISOR: exec_cmd: vm set_exec_area Edge-Fiber-102 64 
+Nov 25 20:02:01.278 HYPERVISOR: exec_cmd: vm get_status Edge-Fiber-102 
+Nov 25 20:02:01.278 HYPERVISOR: exec_cmd: vm set_idle_pc Edge-Fiber-102 0x60aa1da0 
+Nov 25 20:02:01.278 HYPERVISOR: exec_cmd: vm set_ios Edge-Fiber-102 C:/Users/jayda/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Nov 25 20:02:01.278 HYPERVISOR: exec_cmd: c3745 set_mac_addr Edge-Fiber-102 c41e.a010.0000 
+Nov 25 20:02:01.279 HYPERVISOR: exec_cmd: vm set_nvram Edge-Fiber-102 256 
+Nov 25 20:02:01.279 HYPERVISOR: exec_cmd: vm set_ram Edge-Fiber-102 256 
+Nov 25 20:02:01.279 HYPERVISOR: exec_cmd: vm get_status Edge-Fiber-102 
+Nov 25 20:02:01.279 HYPERVISOR: exec_cmd: vm slot_add_binding Edge-Fiber-102 1 0 NM-16ESW 
+Nov 25 20:02:01.279 HYPERVISOR: exec_cmd: vm get_status Edge-Fiber-102 
+Nov 25 20:02:01.279 HYPERVISOR: exec_cmd: vm slot_add_binding Edge-Fiber-102 2 0 NM-1FE-TX 
+Nov 25 20:02:01.279 HYPERVISOR: exec_cmd: vm get_status Edge-Fiber-102 
+Nov 25 20:02:01.279 HYPERVISOR: exec_cmd: vm slot_add_binding Edge-Fiber-102 3 0 NM-1FE-TX 
+Nov 25 20:02:01.279 HYPERVISOR: exec_cmd: vm get_status Edge-Fiber-102 
+Nov 25 20:02:01.279 HYPERVISOR: exec_cmd: vm slot_add_binding Edge-Fiber-102 4 0 NM-1FE-TX 
+Nov 25 20:02:01.279 HYPERVISOR: exec_cmd: vm get_status Edge-Fiber-102 
+Nov 25 20:02:01.280 HYPERVISOR: exec_cmd: vm slot_add_binding Edge-Fiber-102 0 16 WIC-2T 
+Nov 25 20:02:01.280 HYPERVISOR: exec_cmd: vm get_status Edge-Fiber-102 
+Nov 25 20:02:01.280 HYPERVISOR: exec_cmd: vm slot_add_binding Edge-Fiber-102 0 32 WIC-2T 
+Nov 25 20:02:01.280 HYPERVISOR: exec_cmd: vm get_status Edge-Fiber-102 
+Nov 25 20:02:01.280 HYPERVISOR: exec_cmd: vm slot_add_binding Edge-Fiber-102 0 48 WIC-2T 
+Nov 25 20:02:53.060 HYPERVISOR: exec_cmd: nio create_udp udp-dc4a6e6c-d592-4e7d-ae8f-e66b4e247e62 20610 127.0.0.1 20611 
+Nov 25 20:02:53.375 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Edge-Fiber-102 1 0 udp-dc4a6e6c-d592-4e7d-ae8f-e66b4e247e62 
+Nov 25 20:02:53.376 HYPERVISOR: exec_cmd: vm get_status Edge-Fiber-102 
+Nov 25 20:02:53.549 HYPERVISOR: exec_cmd: nio create_udp udp-d88098ef-6bfe-4e6d-9db6-821d3e6d8f55 20614 127.0.0.1 20615 
+Nov 25 20:02:53.551 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Edge-Fiber-102 1 1 udp-d88098ef-6bfe-4e6d-9db6-821d3e6d8f55 
+Nov 25 20:02:53.552 HYPERVISOR: exec_cmd: vm get_status Edge-Fiber-102 
+Nov 25 20:02:53.713 HYPERVISOR: exec_cmd: nio create_udp udp-09c7943e-d927-49fa-ab71-1814ed2db5ad 20618 127.0.0.1 20619 
+Nov 25 20:02:53.715 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Edge-Fiber-102 1 2 udp-09c7943e-d927-49fa-ab71-1814ed2db5ad 
+Nov 25 20:02:53.716 HYPERVISOR: exec_cmd: vm get_status Edge-Fiber-102 
+Nov 25 20:02:53.868 HYPERVISOR: exec_cmd: nio create_udp udp-27f64432-4833-4b48-bd0a-0e25af04cfca 20624 127.0.0.1 20625 
+Nov 25 20:02:53.870 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Edge-Fiber-102 1 3 udp-27f64432-4833-4b48-bd0a-0e25af04cfca 
+Nov 25 20:02:53.870 HYPERVISOR: exec_cmd: vm get_status Edge-Fiber-102 
+Nov 25 20:06:16.211 HYPERVISOR: exec_cmd: vm create Ghost 0 c3745 
+Nov 25 20:06:16.212 VM: VM Ghost created.
+Nov 25 20:06:16.212 HYPERVISOR: exec_cmd: vm set_ios Ghost C:/Users/jayda/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Nov 25 20:06:16.213 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Nov 25 20:06:16.213 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips\c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Nov 25 20:06:16.213 HYPERVISOR: exec_cmd: vm set_ram Ghost 256 
+Nov 25 20:06:16.213 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 25 20:06:16.213 HYPERVISOR: exec_cmd: vm set_config Ghost configs\i0_startup-config.cfg 
+Nov 25 20:06:16.213 HYPERVISOR: exec_cmd: vm start Ghost 
+Nov 25 20:06:16.557 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Nov 25 20:06:16.558 HYPERVISOR: exec_cmd: vm stop Ghost 
+Nov 25 20:06:16.680 VM: VM Ghost shutdown.
+Nov 25 20:06:16.680 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Nov 25 20:06:16.681 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Nov 25 20:06:16.681 VM: VM Ghost destroyed.
+Nov 25 20:06:16.688 HYPERVISOR: exec_cmd: vm set_ghost_status Edge-Fiber-102 2 
+Nov 25 20:06:16.689 HYPERVISOR: exec_cmd: vm set_ghost_file Edge-Fiber-102 C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips\c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Nov 25 20:06:16.689 HYPERVISOR: exec_cmd: vm get_status Edge-Fiber-102 
+Nov 25 20:06:16.690 HYPERVISOR: exec_cmd: vm set_config Edge-Fiber-102 configs\i30_startup-config.cfg 
+Nov 25 20:06:16.690 HYPERVISOR: exec_cmd: vm start Edge-Fiber-102 
+Nov 25 20:06:17.908 HYPERVISOR: exec_cmd: vm set_ghost_status Edge-Fiber-102 2 
+Nov 25 20:06:17.908 HYPERVISOR: exec_cmd: vm set_ghost_file Edge-Fiber-102 C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips\c3745-adventerprisek9-mz.124-25d.image-256.ghost 
+Nov 25 20:06:17.908 HYPERVISOR: exec_cmd: vm get_status Edge-Fiber-102 
+Nov 25 20:08:30.395 HYPERVISOR: exec_cmd: vm get_status Edge-Fiber-102 
+Nov 25 20:08:30.396 HYPERVISOR: exec_cmd: vm stop Edge-Fiber-102 
+Nov 25 20:08:30.577 VM: VM Edge-Fiber-102 shutdown.
+Nov 25 20:08:30.577 HYPERVISOR: exec_cmd: vm extract_config Edge-Fiber-102 
+Nov 25 20:08:31.048 HYPERVISOR: exec_cmd: vm get_status Edge-Fiber-102 
+Nov 25 20:08:31.053 HYPERVISOR: exec_cmd: vm extract_config Edge-Fiber-102 
+Nov 25 20:08:31.056 HYPERVISOR: exec_cmd: vm delete Edge-Fiber-102 
+Nov 25 20:08:31.056 VM: VM Edge-Fiber-102 destroyed.
+Nov 25 20:08:31.059 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 25 20:08:31.091 HYPERVISOR: Stopped.
+Nov 25 20:08:31.092 GENERAL: reset done.

@@ -1,0 +1,22 @@
+Nov 25 20:02:01.366 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 25 20:02:01.366 HYPERVISOR: Started on IP = localhost, TCP port = 49907.
+Nov 25 20:02:01.371 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 25 20:02:01.371 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips 
+Nov 25 20:02:01.371 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips
+Nov 25 20:02:01.371 HYPERVISOR: exec_cmd: ethsw create SA-SWB102-02 
+Nov 25 20:02:52.087 HYPERVISOR: exec_cmd: nio create_udp udp-95055e87-58ec-4b1f-8c15-e7f92f4a3b7a 20596 127.0.0.1 20597 
+Nov 25 20:02:52.088 HYPERVISOR: exec_cmd: ethsw add_nio SA-SWB102-02 udp-95055e87-58ec-4b1f-8c15-e7f92f4a3b7a 
+Nov 25 20:02:52.090 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SWB102-02 udp-95055e87-58ec-4b1f-8c15-e7f92f4a3b7a 311 
+Nov 25 20:02:52.248 HYPERVISOR: exec_cmd: nio create_udp udp-d4d4cd01-5af5-4f66-a920-97abb931d5bf 20598 127.0.0.1 20599 
+Nov 25 20:02:52.249 HYPERVISOR: exec_cmd: ethsw add_nio SA-SWB102-02 udp-d4d4cd01-5af5-4f66-a920-97abb931d5bf 
+Nov 25 20:02:52.250 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SWB102-02 udp-d4d4cd01-5af5-4f66-a920-97abb931d5bf 321 
+Nov 25 20:02:52.404 HYPERVISOR: exec_cmd: nio create_udp udp-11ce66b7-72e1-4e03-baf2-3a201419d650 20600 127.0.0.1 20601 
+Nov 25 20:02:52.404 HYPERVISOR: exec_cmd: ethsw add_nio SA-SWB102-02 udp-11ce66b7-72e1-4e03-baf2-3a201419d650 
+Nov 25 20:02:52.407 HYPERVISOR: exec_cmd: ethsw set_access_port SA-SWB102-02 udp-11ce66b7-72e1-4e03-baf2-3a201419d650 331 
+Nov 25 20:02:53.532 HYPERVISOR: exec_cmd: nio create_udp udp-11e40d6e-4640-499d-8e37-490eadd0291d 20612 127.0.0.1 20613 
+Nov 25 20:02:53.533 HYPERVISOR: exec_cmd: ethsw add_nio SA-SWB102-02 udp-11e40d6e-4640-499d-8e37-490eadd0291d 
+Nov 25 20:02:53.546 HYPERVISOR: exec_cmd: ethsw set_dot1q_port SA-SWB102-02 udp-11e40d6e-4640-499d-8e37-490eadd0291d 1 
+Nov 25 20:08:30.586 HYPERVISOR: exec_cmd: ethsw delete SA-SWB102-02 
+Nov 25 20:08:30.687 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 25 20:08:30.765 HYPERVISOR: Stopped.
+Nov 25 20:08:30.765 GENERAL: reset done.

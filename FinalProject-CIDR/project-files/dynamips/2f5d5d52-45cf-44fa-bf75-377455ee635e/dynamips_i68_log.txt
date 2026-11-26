@@ -1,0 +1,42 @@
+Nov 25 20:02:02.891 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 25 20:02:02.892 HYPERVISOR: Started on IP = localhost, TCP port = 50066.
+Nov 25 20:02:03.405 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 25 20:02:03.405 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips 
+Nov 25 20:02:03.405 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips
+Nov 25 20:02:03.405 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips\ac4d8c07-742b-49f8-bbc2-13646cba46d7 
+Nov 25 20:02:03.406 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips\ac4d8c07-742b-49f8-bbc2-13646cba46d7
+Nov 25 20:02:03.406 HYPERVISOR: exec_cmd: vm create RC-R 45 c3745 
+Nov 25 20:02:03.406 VM: VM RC-R created.
+Nov 25 20:02:03.406 HYPERVISOR: exec_cmd: vm set_con_tcp_port RC-R 5083 
+Nov 25 20:02:03.406 HYPERVISOR: exec_cmd: c3745 get_mac_addr RC-R 
+Nov 25 20:02:03.407 HYPERVISOR: exec_cmd: vm set_disk0 RC-R 0 
+Nov 25 20:02:03.407 HYPERVISOR: exec_cmd: vm set_exec_area RC-R 64 
+Nov 25 20:02:03.407 HYPERVISOR: exec_cmd: vm get_status RC-R 
+Nov 25 20:02:03.407 HYPERVISOR: exec_cmd: vm set_idle_pc RC-R 0x60aa1da0 
+Nov 25 20:02:03.407 HYPERVISOR: exec_cmd: vm set_ios RC-R C:/Users/jayda/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Nov 25 20:02:03.407 HYPERVISOR: exec_cmd: c3745 set_mac_addr RC-R c42d.918c.0000 
+Nov 25 20:02:03.408 HYPERVISOR: exec_cmd: vm set_nvram RC-R 256 
+Nov 25 20:02:03.408 HYPERVISOR: exec_cmd: vm set_ram RC-R 256 
+Nov 25 20:02:03.408 HYPERVISOR: exec_cmd: vm get_status RC-R 
+Nov 25 20:02:03.408 HYPERVISOR: exec_cmd: vm slot_add_binding RC-R 1 0 NM-1FE-TX 
+Nov 25 20:02:03.408 HYPERVISOR: exec_cmd: vm get_status RC-R 
+Nov 25 20:02:03.408 HYPERVISOR: exec_cmd: vm slot_add_binding RC-R 2 0 NM-1FE-TX 
+Nov 25 20:02:03.408 HYPERVISOR: exec_cmd: vm get_status RC-R 
+Nov 25 20:02:03.408 HYPERVISOR: exec_cmd: vm slot_add_binding RC-R 3 0 NM-1FE-TX 
+Nov 25 20:02:03.408 HYPERVISOR: exec_cmd: vm get_status RC-R 
+Nov 25 20:02:03.408 HYPERVISOR: exec_cmd: vm slot_add_binding RC-R 4 0 NM-1FE-TX 
+Nov 25 20:02:03.408 HYPERVISOR: exec_cmd: vm get_status RC-R 
+Nov 25 20:02:03.409 HYPERVISOR: exec_cmd: vm slot_add_binding RC-R 0 16 WIC-2T 
+Nov 25 20:02:03.409 HYPERVISOR: exec_cmd: vm get_status RC-R 
+Nov 25 20:02:03.409 HYPERVISOR: exec_cmd: vm slot_add_binding RC-R 0 32 WIC-2T 
+Nov 25 20:02:03.409 HYPERVISOR: exec_cmd: vm get_status RC-R 
+Nov 25 20:02:03.409 HYPERVISOR: exec_cmd: vm slot_add_binding RC-R 0 48 WIC-2T 
+Nov 25 20:08:30.418 HYPERVISOR: exec_cmd: vm get_status RC-R 
+Nov 25 20:08:30.419 HYPERVISOR: exec_cmd: vm extract_config RC-R 
+Nov 25 20:08:30.585 HYPERVISOR: exec_cmd: vm get_status RC-R 
+Nov 25 20:08:30.595 HYPERVISOR: exec_cmd: vm extract_config RC-R 
+Nov 25 20:08:30.600 HYPERVISOR: exec_cmd: vm delete RC-R 
+Nov 25 20:08:30.601 VM: VM RC-R destroyed.
+Nov 25 20:08:30.610 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 25 20:08:30.873 HYPERVISOR: Stopped.
+Nov 25 20:08:30.873 GENERAL: reset done.

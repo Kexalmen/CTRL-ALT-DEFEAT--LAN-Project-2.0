@@ -1,0 +1,48 @@
+Nov 25 20:02:01.506 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 25 20:02:01.506 HYPERVISOR: Started on IP = localhost, TCP port = 49919.
+Nov 25 20:02:01.510 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 25 20:02:01.510 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips 
+Nov 25 20:02:01.511 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips
+Nov 25 20:02:01.511 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips\126a7be5-fa69-4290-a36e-134978080a76 
+Nov 25 20:02:01.511 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips\126a7be5-fa69-4290-a36e-134978080a76
+Nov 25 20:02:01.511 HYPERVISOR: exec_cmd: vm create SA-DNS-SB01 38 c3745 
+Nov 25 20:02:01.513 VM: VM SA-DNS-SB01 created.
+Nov 25 20:02:01.513 HYPERVISOR: exec_cmd: vm set_con_tcp_port SA-DNS-SB01 5334 
+Nov 25 20:02:01.513 HYPERVISOR: exec_cmd: c3745 get_mac_addr SA-DNS-SB01 
+Nov 25 20:02:01.514 HYPERVISOR: exec_cmd: vm set_disk0 SA-DNS-SB01 0 
+Nov 25 20:02:01.514 HYPERVISOR: exec_cmd: vm set_exec_area SA-DNS-SB01 64 
+Nov 25 20:02:01.514 HYPERVISOR: exec_cmd: vm get_status SA-DNS-SB01 
+Nov 25 20:02:01.514 HYPERVISOR: exec_cmd: vm set_idle_pc SA-DNS-SB01 0x60aa1da0 
+Nov 25 20:02:01.515 HYPERVISOR: exec_cmd: vm set_ios SA-DNS-SB01 C:/Users/jayda/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Nov 25 20:02:01.515 HYPERVISOR: exec_cmd: c3745 set_mac_addr SA-DNS-SB01 c426.afc0.0000 
+Nov 25 20:02:01.516 HYPERVISOR: exec_cmd: vm set_nvram SA-DNS-SB01 256 
+Nov 25 20:02:01.516 HYPERVISOR: exec_cmd: vm set_ram SA-DNS-SB01 256 
+Nov 25 20:02:01.516 HYPERVISOR: exec_cmd: vm get_status SA-DNS-SB01 
+Nov 25 20:02:01.516 HYPERVISOR: exec_cmd: vm slot_add_binding SA-DNS-SB01 1 0 NM-1FE-TX 
+Nov 25 20:02:01.516 HYPERVISOR: exec_cmd: vm get_status SA-DNS-SB01 
+Nov 25 20:02:01.517 HYPERVISOR: exec_cmd: vm slot_add_binding SA-DNS-SB01 2 0 NM-1FE-TX 
+Nov 25 20:02:01.517 HYPERVISOR: exec_cmd: vm get_status SA-DNS-SB01 
+Nov 25 20:02:01.517 HYPERVISOR: exec_cmd: vm slot_add_binding SA-DNS-SB01 3 0 NM-1FE-TX 
+Nov 25 20:02:01.517 HYPERVISOR: exec_cmd: vm get_status SA-DNS-SB01 
+Nov 25 20:02:01.517 HYPERVISOR: exec_cmd: vm slot_add_binding SA-DNS-SB01 4 0 NM-1FE-TX 
+Nov 25 20:02:01.517 HYPERVISOR: exec_cmd: vm get_status SA-DNS-SB01 
+Nov 25 20:02:01.517 HYPERVISOR: exec_cmd: vm slot_add_binding SA-DNS-SB01 0 16 WIC-2T 
+Nov 25 20:02:01.517 HYPERVISOR: exec_cmd: vm get_status SA-DNS-SB01 
+Nov 25 20:02:01.517 HYPERVISOR: exec_cmd: vm slot_add_binding SA-DNS-SB01 0 32 WIC-2T 
+Nov 25 20:02:01.517 HYPERVISOR: exec_cmd: vm get_status SA-DNS-SB01 
+Nov 25 20:02:01.518 HYPERVISOR: exec_cmd: vm slot_add_binding SA-DNS-SB01 0 48 WIC-2T 
+Nov 25 20:02:55.493 HYPERVISOR: exec_cmd: nio create_udp udp-ecdb2e78-676c-4ba4-8a8c-e6e811e8c549 20648 127.0.0.1 20649 
+Nov 25 20:02:55.824 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SA-DNS-SB01 0 0 udp-ecdb2e78-676c-4ba4-8a8c-e6e811e8c549 
+Nov 25 20:02:55.824 HYPERVISOR: exec_cmd: vm get_status SA-DNS-SB01 
+Nov 25 20:02:57.136 HYPERVISOR: exec_cmd: nio create_udp udp-b2ecbf03-687f-4f9e-be79-a5a331cadbb9 20666 127.0.0.1 20667 
+Nov 25 20:02:57.138 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SA-DNS-SB01 0 1 udp-b2ecbf03-687f-4f9e-be79-a5a331cadbb9 
+Nov 25 20:02:57.138 HYPERVISOR: exec_cmd: vm get_status SA-DNS-SB01 
+Nov 25 20:08:30.405 HYPERVISOR: exec_cmd: vm get_status SA-DNS-SB01 
+Nov 25 20:08:30.405 HYPERVISOR: exec_cmd: vm extract_config SA-DNS-SB01 
+Nov 25 20:08:31.030 HYPERVISOR: exec_cmd: vm get_status SA-DNS-SB01 
+Nov 25 20:08:31.031 HYPERVISOR: exec_cmd: vm extract_config SA-DNS-SB01 
+Nov 25 20:08:31.031 HYPERVISOR: exec_cmd: vm delete SA-DNS-SB01 
+Nov 25 20:08:31.031 VM: VM SA-DNS-SB01 destroyed.
+Nov 25 20:08:31.032 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 25 20:08:31.469 HYPERVISOR: Stopped.
+Nov 25 20:08:31.469 GENERAL: reset done.

@@ -1,0 +1,49 @@
+Nov 25 20:02:01.413 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 25 20:02:01.413 HYPERVISOR: Started on IP = localhost, TCP port = 49913.
+Nov 25 20:02:01.418 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 25 20:02:01.418 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips 
+Nov 25 20:02:01.418 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips
+Nov 25 20:02:01.418 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips\fd1df732-465d-4315-b799-c60df8c48c9d 
+Nov 25 20:02:01.419 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips\fd1df732-465d-4315-b799-c60df8c48c9d
+Nov 25 20:02:01.419 HYPERVISOR: exec_cmd: vm create SA-DHCP-SB01 36 c3745 
+Nov 25 20:02:01.419 VM: VM SA-DHCP-SB01 created.
+Nov 25 20:02:01.419 HYPERVISOR: exec_cmd: vm set_con_tcp_port SA-DHCP-SB01 5329 
+Nov 25 20:02:01.420 HYPERVISOR: exec_cmd: c3745 get_mac_addr SA-DHCP-SB01 
+Nov 25 20:02:01.420 HYPERVISOR: exec_cmd: vm set_disk0 SA-DHCP-SB01 0 
+Nov 25 20:02:01.420 HYPERVISOR: exec_cmd: vm set_exec_area SA-DHCP-SB01 64 
+Nov 25 20:02:01.420 HYPERVISOR: exec_cmd: vm get_status SA-DHCP-SB01 
+Nov 25 20:02:01.420 HYPERVISOR: exec_cmd: vm set_idle_pc SA-DHCP-SB01 0x60aa1da0 
+Nov 25 20:02:01.420 HYPERVISOR: exec_cmd: vm set_ios SA-DHCP-SB01 C:/Users/jayda/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Nov 25 20:02:01.420 HYPERVISOR: exec_cmd: c3745 set_mac_addr SA-DHCP-SB01 c424.3e08.0000 
+Nov 25 20:02:01.421 HYPERVISOR: exec_cmd: vm set_nvram SA-DHCP-SB01 256 
+Nov 25 20:02:01.421 HYPERVISOR: exec_cmd: vm set_ram SA-DHCP-SB01 256 
+Nov 25 20:02:01.421 HYPERVISOR: exec_cmd: vm get_status SA-DHCP-SB01 
+Nov 25 20:02:01.421 HYPERVISOR: exec_cmd: vm slot_add_binding SA-DHCP-SB01 1 0 NM-1FE-TX 
+Nov 25 20:02:01.421 HYPERVISOR: exec_cmd: vm get_status SA-DHCP-SB01 
+Nov 25 20:02:01.421 HYPERVISOR: exec_cmd: vm slot_add_binding SA-DHCP-SB01 2 0 NM-1FE-TX 
+Nov 25 20:02:01.421 HYPERVISOR: exec_cmd: vm get_status SA-DHCP-SB01 
+Nov 25 20:02:01.421 HYPERVISOR: exec_cmd: vm slot_add_binding SA-DHCP-SB01 3 0 NM-1FE-TX 
+Nov 25 20:02:01.421 HYPERVISOR: exec_cmd: vm get_status SA-DHCP-SB01 
+Nov 25 20:02:01.421 HYPERVISOR: exec_cmd: vm slot_add_binding SA-DHCP-SB01 4 0 NM-1FE-TX 
+Nov 25 20:02:01.421 HYPERVISOR: exec_cmd: vm get_status SA-DHCP-SB01 
+Nov 25 20:02:01.421 HYPERVISOR: exec_cmd: vm slot_add_binding SA-DHCP-SB01 0 16 WIC-2T 
+Nov 25 20:02:01.422 HYPERVISOR: exec_cmd: vm get_status SA-DHCP-SB01 
+Nov 25 20:02:01.422 HYPERVISOR: exec_cmd: vm slot_add_binding SA-DHCP-SB01 0 32 WIC-2T 
+Nov 25 20:02:01.422 HYPERVISOR: exec_cmd: vm get_status SA-DHCP-SB01 
+Nov 25 20:02:01.422 HYPERVISOR: exec_cmd: vm slot_add_binding SA-DHCP-SB01 0 48 WIC-2T 
+Nov 25 20:02:54.524 HYPERVISOR: exec_cmd: nio create_udp udp-017226d8-1838-45cc-8f9b-adc311e885b4 20636 127.0.0.1 20637 
+Nov 25 20:02:54.843 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SA-DHCP-SB01 0 0 udp-017226d8-1838-45cc-8f9b-adc311e885b4 
+Nov 25 20:02:54.843 HYPERVISOR: exec_cmd: vm get_status SA-DHCP-SB01 
+Nov 25 20:02:56.817 HYPERVISOR: exec_cmd: nio create_udp udp-ce503fa2-6862-4169-8cde-bc0784d618ba 20654 127.0.0.1 20655 
+Nov 25 20:02:56.819 HYPERVISOR: exec_cmd: vm slot_add_nio_binding SA-DHCP-SB01 0 1 udp-ce503fa2-6862-4169-8cde-bc0784d618ba 
+Nov 25 20:02:56.819 HYPERVISOR: exec_cmd: vm get_status SA-DHCP-SB01 
+Nov 25 20:06:37.742 HYPERVISOR: exec_cmd: vm set_ios SA-DHCP-SB01 C:/Users/jayda/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Nov 25 20:08:30.402 HYPERVISOR: exec_cmd: vm get_status SA-DHCP-SB01 
+Nov 25 20:08:30.403 HYPERVISOR: exec_cmd: vm extract_config SA-DHCP-SB01 
+Nov 25 20:08:31.030 HYPERVISOR: exec_cmd: vm get_status SA-DHCP-SB01 
+Nov 25 20:08:31.031 HYPERVISOR: exec_cmd: vm extract_config SA-DHCP-SB01 
+Nov 25 20:08:31.031 HYPERVISOR: exec_cmd: vm delete SA-DHCP-SB01 
+Nov 25 20:08:31.031 VM: VM SA-DHCP-SB01 destroyed.
+Nov 25 20:08:31.032 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 25 20:08:31.469 HYPERVISOR: Stopped.
+Nov 25 20:08:31.469 GENERAL: reset done.

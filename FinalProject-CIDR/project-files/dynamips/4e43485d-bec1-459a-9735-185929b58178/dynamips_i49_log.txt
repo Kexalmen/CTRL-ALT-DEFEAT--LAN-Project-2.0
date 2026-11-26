@@ -1,0 +1,54 @@
+Nov 25 20:02:00.990 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Nov 25 20:02:00.990 HYPERVISOR: Started on IP = localhost, TCP port = 49880.
+Nov 25 20:02:00.996 HYPERVISOR: exec_cmd: hypervisor version 
+Nov 25 20:02:00.996 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips 
+Nov 25 20:02:00.996 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips
+Nov 25 20:02:00.996 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips\0629b071-f403-4bf3-b593-8655782b52ac 
+Nov 25 20:02:00.997 GENERAL: working_dir=C:\Users\jayda\GNS3\projects\FinalProject-Updated\project-files\dynamips\0629b071-f403-4bf3-b593-8655782b52ac
+Nov 25 20:02:00.997 HYPERVISOR: exec_cmd: vm create Distribution-Fiber-01 29 c3745 
+Nov 25 20:02:00.997 VM: VM Distribution-Fiber-01 created.
+Nov 25 20:02:00.998 HYPERVISOR: exec_cmd: vm set_con_tcp_port Distribution-Fiber-01 5293 
+Nov 25 20:02:00.998 HYPERVISOR: exec_cmd: c3745 get_mac_addr Distribution-Fiber-01 
+Nov 25 20:02:00.998 HYPERVISOR: exec_cmd: vm set_disk0 Distribution-Fiber-01 1 
+Nov 25 20:02:00.998 HYPERVISOR: exec_cmd: vm set_exec_area Distribution-Fiber-01 64 
+Nov 25 20:02:00.998 HYPERVISOR: exec_cmd: vm get_status Distribution-Fiber-01 
+Nov 25 20:02:00.998 HYPERVISOR: exec_cmd: vm set_idle_pc Distribution-Fiber-01 0x60aa1da0 
+Nov 25 20:02:00.998 HYPERVISOR: exec_cmd: vm set_ios Distribution-Fiber-01 C:/Users/jayda/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25d.image 
+Nov 25 20:02:00.998 HYPERVISOR: exec_cmd: c3745 set_mac_addr Distribution-Fiber-01 c41d.4998.0000 
+Nov 25 20:02:00.999 HYPERVISOR: exec_cmd: vm set_nvram Distribution-Fiber-01 256 
+Nov 25 20:02:00.999 HYPERVISOR: exec_cmd: vm set_ram Distribution-Fiber-01 256 
+Nov 25 20:02:00.999 HYPERVISOR: exec_cmd: vm get_status Distribution-Fiber-01 
+Nov 25 20:02:00.999 HYPERVISOR: exec_cmd: vm slot_add_binding Distribution-Fiber-01 1 0 NM-16ESW 
+Nov 25 20:02:00.999 HYPERVISOR: exec_cmd: vm get_status Distribution-Fiber-01 
+Nov 25 20:02:00.999 HYPERVISOR: exec_cmd: vm slot_add_binding Distribution-Fiber-01 2 0 NM-1FE-TX 
+Nov 25 20:02:00.999 HYPERVISOR: exec_cmd: vm get_status Distribution-Fiber-01 
+Nov 25 20:02:00.999 HYPERVISOR: exec_cmd: vm slot_add_binding Distribution-Fiber-01 3 0 NM-1FE-TX 
+Nov 25 20:02:00.999 HYPERVISOR: exec_cmd: vm get_status Distribution-Fiber-01 
+Nov 25 20:02:00.999 HYPERVISOR: exec_cmd: vm slot_add_binding Distribution-Fiber-01 4 0 NM-1FE-TX 
+Nov 25 20:02:00.999 HYPERVISOR: exec_cmd: vm get_status Distribution-Fiber-01 
+Nov 25 20:02:00.999 HYPERVISOR: exec_cmd: vm slot_add_binding Distribution-Fiber-01 0 16 WIC-2T 
+Nov 25 20:02:01.000 HYPERVISOR: exec_cmd: vm get_status Distribution-Fiber-01 
+Nov 25 20:02:01.000 HYPERVISOR: exec_cmd: vm slot_add_binding Distribution-Fiber-01 0 32 WIC-2T 
+Nov 25 20:02:01.000 HYPERVISOR: exec_cmd: vm get_status Distribution-Fiber-01 
+Nov 25 20:02:01.000 HYPERVISOR: exec_cmd: vm slot_add_binding Distribution-Fiber-01 0 48 WIC-2T 
+Nov 25 20:02:47.366 HYPERVISOR: exec_cmd: nio create_udp udp-85045d44-9fa3-4fff-a8ae-dac648339e04 20504 127.0.0.1 20505 
+Nov 25 20:02:47.671 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Distribution-Fiber-01 1 0 udp-85045d44-9fa3-4fff-a8ae-dac648339e04 
+Nov 25 20:02:47.671 HYPERVISOR: exec_cmd: vm get_status Distribution-Fiber-01 
+Nov 25 20:02:49.070 HYPERVISOR: exec_cmd: nio create_udp udp-7c7404f6-bbae-4ee6-9c1a-079d2703d402 20534 127.0.0.1 20535 
+Nov 25 20:02:49.072 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Distribution-Fiber-01 1 1 udp-7c7404f6-bbae-4ee6-9c1a-079d2703d402 
+Nov 25 20:02:49.072 HYPERVISOR: exec_cmd: vm get_status Distribution-Fiber-01 
+Nov 25 20:02:49.539 HYPERVISOR: exec_cmd: nio create_udp udp-cf0d696c-5774-481b-b0f8-1902955a32a3 20550 127.0.0.1 20551 
+Nov 25 20:02:49.541 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Distribution-Fiber-01 1 2 udp-cf0d696c-5774-481b-b0f8-1902955a32a3 
+Nov 25 20:02:49.541 HYPERVISOR: exec_cmd: vm get_status Distribution-Fiber-01 
+Nov 25 20:02:50.003 HYPERVISOR: exec_cmd: nio create_udp udp-422a6ef4-51d0-4b84-8ee3-615f6dde8490 20556 127.0.0.1 20557 
+Nov 25 20:02:50.006 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Distribution-Fiber-01 1 3 udp-422a6ef4-51d0-4b84-8ee3-615f6dde8490 
+Nov 25 20:02:50.006 HYPERVISOR: exec_cmd: vm get_status Distribution-Fiber-01 
+Nov 25 20:08:30.386 HYPERVISOR: exec_cmd: vm get_status Distribution-Fiber-01 
+Nov 25 20:08:30.387 HYPERVISOR: exec_cmd: vm extract_config Distribution-Fiber-01 
+Nov 25 20:08:31.046 HYPERVISOR: exec_cmd: vm get_status Distribution-Fiber-01 
+Nov 25 20:08:31.052 HYPERVISOR: exec_cmd: vm extract_config Distribution-Fiber-01 
+Nov 25 20:08:31.055 HYPERVISOR: exec_cmd: vm delete Distribution-Fiber-01 
+Nov 25 20:08:31.055 VM: VM Distribution-Fiber-01 destroyed.
+Nov 25 20:08:31.058 HYPERVISOR: exec_cmd: hypervisor stop 
+Nov 25 20:08:31.469 HYPERVISOR: Stopped.
+Nov 25 20:08:31.469 GENERAL: reset done.
